@@ -5,16 +5,18 @@
  *
  * Return: 0
  */
-int main()
+int main(void)
 {
-	int a;
-	char b;
-	float c;
-	double d;
+	char a;
+	int b;
+	long int c;
+	long long int d;
+	float e;
 
-	printf("Storage size for int data type:%d \n",sizeof(a));
-	printf("Storage size for char data type:%d \n",sizeof(b));
-	printf("Storage size for float data type:%d \n",sizeof(c));
-	printf("Storage size for double data type:%d\n",sizeof(d));
-	return 0;
+	printf("Size for char data type:%d \n", sizeof(a));
+	printf("Size for int data type:%d \n", sizeof(b));
+	printf("Size for long int data type:%d \n", sizeof(c));
+	printf("Size for long long int data type:%d \n", sizeof(d));
+	printf("Size for float data type:%d \n", sizeof(e));
+	return (0);
 }
