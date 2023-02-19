@@ -1,19 +1,20 @@
 #include <stdio.h>
+#include <limits.h>
 /**
  * main - Entry point
  *
  * Return: 0
  */
-int main(void) 
+int main()
 {
-	int intType;
-	float floatType;
-	double doubleType;
-	char charType;
+	int a;
+	char b;
+	float c;
+	double d;
 
-	printf("Size of int: %zu bytes\n", sizeof(intType));
-	printf("Size of float: %zu bytes\n", sizeof(floatType));
-	printf("Size of double: %zu bytes\n", sizeof(doubleType));
-	printf("Size of char: %zu byte\n", sizeof(charType));
-	return (0);
+	printf("Storage size for int data type:%d \n",sizeof(a));
+	printf("Storage size for char data type:%d \n",sizeof(b));
+	printf("Storage size for float data type:%d \n",sizeof(c));
+	printf("Storage size for double data type:%d\n",sizeof(d));
+	return 0;
 }
