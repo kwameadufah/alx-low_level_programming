@@ -2,7 +2,8 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * main - Prints random numbers abd states whether it is positive, negative, or zero
+ * main - Prints random numbers and states whether
+ *	it is positive, negative, or zero
  *
  *
  * Return: Always 0
